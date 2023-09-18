@@ -2,6 +2,9 @@ package com.tencoding.bank.handler.exception;
 
 import org.springframework.http.HttpStatus;
 
+import lombok.Getter;
+
+@Getter
 public class CustomPageException extends RuntimeException {
 
 	private HttpStatus status;
